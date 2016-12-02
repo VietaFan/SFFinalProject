@@ -1,0 +1,18 @@
+	  JLabel lblYourAgents = new JLabel("Your Agents");
+		lblYourAgents.setFont(new Font("Tahoma", Font.BOLD, 14));
+		lblYourAgents.setBounds(376, 544, 118, 21);
+		frame.getContentPane().add(lblYourAgents);
+		
+		JLabel lblSampleAgent = new JLabel("Sample Agent 1");
+		lblSampleAgent.setBounds(44, 605, 98, 21);
+		frame.getContentPane().add(lblSampleAgent);
+		
+		JLabel lblSampleAgent_1 = new JLabel("Sample Agent 2");
+		lblSampleAgent_1.setBounds(44, 644, 98, 21);
+		frame.getContentPane().add(lblSampleAgent_1);
+		
+		JLabel lblSampleAgent_2 = new JLabel("Sample Agent 3");
+		lblSampleAgent_2.setBounds(44, 683, 98, 21);
+		frame.getContentPane().add(lblSampleAgent_2);
+    
+    // need to resize window
